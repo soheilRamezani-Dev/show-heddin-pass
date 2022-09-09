@@ -1,0 +1,14 @@
+@import './../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.form-group label{
+    position: relative;
+}
+
+.show-password-icon{
+    position: absolute;
+    bottom: 50%;
+    right: 5px;
+}
+.show-password-icon::after{
+    content: '\f06e';
+}
